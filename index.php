@@ -104,7 +104,7 @@ $pantalone= new Abbigliamento('nike','60');
 $adele = new Persona('adele','recubini','indirizzo','555555');
 
 
-
+echo "utende adele ha comprato questo oggetto";
 $adele -> compro($bambola);
 var_dump($adele);
 
