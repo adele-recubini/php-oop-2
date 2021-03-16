@@ -66,12 +66,12 @@ class Persona {
 
 
 }
-
+}
 
 //faccio una classe credit card
 
 
-class Bancomat{
+class Bancomat {
 
   protected $nome;
 
@@ -99,15 +99,13 @@ $integratore = new Salute('florase colesterolo','23');
 $caffe = new Alimenti('borbone','6');
 $pantalone= new Abbigliamento('nike',60);
 
-//istanzio adele come nuova persona
+
 
 $adele = new Persona('adele','recubini','indirizzo','555555')
 
 
 
-//faccio interagire tra di loro gli oggetti, cioe adele la nuova persona compra una bambola
-
-$adele->compro($infanzia);
+$adele -> compro($infanzia);
 var_dump($adele);
 
 //$c = new CreditCard(..);
