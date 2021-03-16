@@ -48,7 +48,7 @@ class Persona {
 
   protected $telefono;
 
-  protected $oggettiComprati;
+  protected $oggettiComprati=[];
 
 
   public function __construc($nome,$cognome,$indirizzoFatturazione,$telefono){
@@ -61,8 +61,8 @@ class Persona {
 
   }
 
-  public function compro($prodotti){
-	$this->$oggettiComprati = $prodotti;
+  public function compro(prodotti $prodotti){
+	$this->oggettiComprati[] = $prodotti;
 
 
 }
