@@ -12,7 +12,7 @@ class Prodotti{
   public function __construc($tipo,$prezzo){
 //valorizzo i parametri
 
-  $this ->tipo =$nome;
+  $this ->tipo =$tipo;
   $this ->prezzo =$prezzo;
 
   }
@@ -35,16 +35,6 @@ class Alimenti extends Prodotti {
 class Abbigliamento extends Prodotti {
 
 }
-
-
-$bambola= new Infanzia('dolly','50');
-$integratore = new Salute('florase colesterolo','23');
-$caffe = new Alimenti('borbone','6');
-$pantalone= new Abbigliamento('nike',60);
-
-
-
-
 
 
 // faccio una classe persona
@@ -78,7 +68,7 @@ class persona {
 //faccio una classe credit card
 
 
-class bancomat{
+class Bancomat{
 
   protected $nome;
 
@@ -92,12 +82,27 @@ class bancomat{
 
   $this ->nome =$nome;
 
-  $this ->scdenza =$scadenza;
+  $this ->scadenza =$scadenza;
 
     $this ->totale =$totale;
 
   }
 
-
-
 }
+
+
+$bambola= new Infanzia('dolly','50');
+$integratore = new Salute('florase colesterolo','23');
+$caffe = new Alimenti('borbone','6');
+$pantalone= new Abbigliamento('nike',60);
+
+$adele = new Persona('adele','recubini','indirizzo','555555')
+
+var_dump($integratore);
+
+//faccio interagire tra di loro gli oggetti
+
+
+
+//$c = new CreditCard(..);
+//$user->insertCreditCard($c);
