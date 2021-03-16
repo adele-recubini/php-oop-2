@@ -101,7 +101,7 @@ $pantalone= new Abbigliamento('nike','60');
 
 
 
-$adele = new Persona('adele','recubini','indirizzo','555555')
+$adele = new Persona('adele','recubini','indirizzo','555555');
 
 
 
