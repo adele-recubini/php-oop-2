@@ -104,9 +104,7 @@ $pantalone= new Abbigliamento('nike','60');
 $adele = new Persona('adele','recubini','indirizzo','555555');
 
 
-echo "utende adele ha comprato questo oggetto";
+echo "utente adele ha comprato questo oggetto";
+echo "</br>";
 $adele -> compro($bambola);
 var_dump($adele);
-
-//$c = new CreditCard(..);
-//$user->insertCreditCard($c);
