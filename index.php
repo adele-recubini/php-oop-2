@@ -9,7 +9,7 @@ class Prodotti{
 
   protected $prezzo;
 
-  public function __construc($tipo,$prezzo){
+  public function __construct($tipo,$prezzo){
 //valorizzo i parametri
 
   $this ->tipo =$tipo;
@@ -21,6 +21,7 @@ class Prodotti{
 
 
 class Infanzia extends Prodotti {
+
 
 }
 
@@ -51,7 +52,7 @@ class Persona {
   protected $oggettiComprati=[];
 
 
-  public function __construc($nome,$cognome,$indirizzoFatturazione,$telefono){
+  public function __construct($nome,$cognome,$indirizzoFatturazione,$telefono){
 //valorizzo i parametri
 
   $this ->nome =$nome;
@@ -80,7 +81,7 @@ class Bancomat {
   protected $totale;
 
 
-  public function __construc($nome,$scadenza,$totale){
+  public function __construct($nome,$scadenza,$totale){
 //valorizzo i parametri
 
   $this ->nome =$nome;
