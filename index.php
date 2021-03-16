@@ -61,7 +61,7 @@ class Persona {
 
   }
 
-  public function compro(prodotti $prodotti){
+  public function compro(Prodotti $prodotti){
 	$this->oggettiComprati[] = $prodotti;
 
 
