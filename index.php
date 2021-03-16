@@ -97,7 +97,7 @@ class Bancomat {
 $bambola= new Infanzia('dolly','50');
 $integratore = new Salute('florase colesterolo','23');
 $caffe = new Alimenti('borbone','6');
-$pantalone= new Abbigliamento('nike',60);
+$pantalone= new Abbigliamento('nike','60');
 
 
 
